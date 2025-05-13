@@ -1,12 +1,11 @@
 import 'package:flutter/material.dart';
-import 'rtl_text.dart';
 
 void main(List<String> args) {
   runApp(
     Container(
       child: Text(
         'Flutterando',
-        textDirection: TextDecoration.rtl,
+        textDirection: TextDirection.rtl,
         style: TextStyle(color: Colors.white),
       ),
     ),
