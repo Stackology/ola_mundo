@@ -19,3 +19,5 @@ Que nao reagem a instruçoes do usuario de forma visive ou logica.
 | Armazena estado?    | ❌ Não                     | ✅ Sim                             |
 | Muda dinamicamente? | ❌ Não                     | ✅ Sim (ex: contador, formulários) |
 | Exemplo de uso      | Texto fixo, botão simples | Botão que muda de cor ao clicar   |
+
+

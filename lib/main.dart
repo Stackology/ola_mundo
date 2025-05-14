@@ -1,19 +1,8 @@
 import 'dart:ui';
 import 'package:flutter/material.dart';
+import 'package:ola_mundo/app_widget.dart';
+import 'package:ola_mundo/home_page.dart';
 
 void main(List<String> args) {
-  runApp(App(title1: '', title2: ''));
-}
-
-class App extends StatelessWidget {
-  final String title1;
-
-  const App({super.key, required this.title1});
-
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      theme: ThemeData(primarySwatch: Colors.red),
-      home: Container(child: Center(child: Text('Flutterando'))),
-    );
-  }
+  runApp(App(title1: ''));
 }
