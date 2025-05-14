@@ -7,19 +7,13 @@ void main(List<String> args) {
 
 class App extends StatelessWidget {
   final String title1;
-  final String title2;
 
-  const App({super.key, required this.title1, required this.title2});
+  const App({super.key, required this.title1});
 
   Widget build(BuildContext context) {
-    return Container(
-      child: Center(
-        child: Text(
-          'Flutterando',
-          textDirection: TextDirection.rtl,
-          style: TextStyle(color: Colors.white, fontSize: 50.0),
-        ),
-      ),
+    return MaterialApp(
+      theme: ThemeData(primarySwatch: Colors.red),
+      home: Container(child: Center(child: Text('Flutterando'))),
     );
   }
 }
