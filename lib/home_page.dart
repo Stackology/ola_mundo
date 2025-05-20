@@ -11,14 +11,9 @@ class HomePageState extends State<HomePage> {
   int _counter = 0;
 
   Widget build(BuildContext context) {
-    return Container(
-      child: Center(
-        child: GestureDetector(
-          child: Text('Contador: $_counter'),
-          onTap: () => setState(() => _counter++),
-        ),
-      ),
-    );
+    return Scaffold(
+      
+    )
 
     // TODO: implement build
   }

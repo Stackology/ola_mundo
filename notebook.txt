@@ -1,0 +1,12 @@
+child: Center(
+        child: GestureDetector(
+          child: Text('Contador: $_counter'),
+          onTap: () => setState(() => _counter++),
+        ),
+      ),
+      
+      
+      
+      
+      
+      Failed to launch flutter emulator: Error: Emulator didn't connect within 60 seconds
